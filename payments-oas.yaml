@@ -61,7 +61,7 @@ paths:
           x-amf-mediaType: application/json
           schema:
             $ref: '#/definitions/ErrorResponse'
-        '405':
+        '405': 
           description: The request method is not supported for the requested resource.
           x-amf-mediaType: application/json
           schema:

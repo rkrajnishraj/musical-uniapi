@@ -31,4 +31,4 @@ jobs:
           ANYPOINT_ORG_ID: ${{ secrets.ANYPOINT_ORGID }}
         run: |
           api-catalog publish-asset --organization="$ANYPOINT_ORG_ID" --client_id="$ANYPOINT_CLIENTID" --client_secret="$ANYPOINT_CLIENTSECRET"
-Footer
+          
